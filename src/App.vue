@@ -1,17 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>Welcome to My Vue App</h1>
+    <div class="my-section">
+      <!-- Your custom HTML -->
+      <p>This is my custom HTML content.</p>
+      <div id="calendar">
+        <h2 id="month-year"></h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Sun</th>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+            </tr>
+          </thead>
+          <tbody id="calendar-body"></tbody>
+        </table>
+        <div class="button-container">
+          <button id="prev-month" class="prev-next">Previous Month</button>
+          <button id="next-month" class="prev-next">Next Month</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script>
+
 </script>
 
 <style>
