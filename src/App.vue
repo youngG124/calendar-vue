@@ -1,9 +1,8 @@
 <template>
   <div>
-    <h1>Welcome to My Vue App</h1>
+    <h1>Web-Calendar-Magazine</h1>
     <div class="my-section">
       <!-- Your custom HTML -->
-      <p>This is my custom HTML content.</p>
       <div id="calendar">
         <h2 id="month-year"></h2>
         <table>
